@@ -7,7 +7,7 @@ Quick overview:
 - Project contain one feature for each test, information from previous tests could be used for the next one.
 
 Run the tests (Maven)
-1. Open PowerShell at the project root
+1. Open PowerShell and go to /karateAPI directory
 2. Run:
 
 ```powershell
