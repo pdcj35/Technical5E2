@@ -168,15 +168,15 @@
   "name": "User API",
   "relativePath": "target/test-classes/examples/create-pet.feature",
   "passed": true,
-  "durationMillis": 1673,
+  "durationMillis": 1269,
   "scenarios": [
     {
       "name": "create a pet",
       "line": 3,
       "passed": true,
-      "durationMillis": 1561,
-      "startTime": 1779069254972,
-      "endTime": 1779069256533,
+      "durationMillis": 1190,
+      "startTime": 1778895875151,
+      "endTime": 1778895876341,
       "refId": "[1:3]",
       "sectionIndex": 1,
       "exampleIndex": -1,
@@ -190,7 +190,7 @@
           "text": "baseUrl + '/pet'",
           "line": 4,
           "status": "passed",
-          "durationMillis": 2,
+          "durationMillis": 1,
           "hasLogs": false,
           "hasEmbeds": false,
           "hasCallResults": false
@@ -201,7 +201,7 @@
           "text": null,
           "line": 5,
           "status": "passed",
-          "durationMillis": 66,
+          "durationMillis": 50,
           "hasLogs": false,
           "hasEmbeds": false,
           "hasCallResults": false
@@ -212,9 +212,9 @@
           "text": "post",
           "line": 26,
           "status": "passed",
-          "durationMillis": 1477,
+          "durationMillis": 1119,
           "hasLogs": true,
-          "logs": "request:\n1 > POST https://petstore.swagger.io/v2/pet\n1 > Content-Type: application/json; charset=UTF-8\n1 > Host: petstore.swagger.io\n1 > Content-Length: 139\n1 > Connection: keep-alive\n1 > User-Agent: Apache-HttpClient/5.6.1 (Java/25)\n{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"testPet\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}\n\nresponse time in milliseconds: 117\n1 < 200 POST https://petstore.swagger.io/v2/pet\n1 < Transfer-Encoding: chunked\n1 < Server: Jetty(9.2.9.v20150224)\n1 < Access-Control-Allow-Origin: *\n1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT\n1 < Connection: keep-alive\n1 < Date: Mon, 18 May 2026 01:54:16 GMT\n1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization\n1 < Content-Type: application/json\n{\n  \"id\": 9223372036854775807,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"testPet\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}\n\nPOST https://petstore.swagger.io/v2/pet\n200 (117 ms)\n",
+          "logs": "request:\n1 > POST https://petstore.swagger.io/v2/pet\n1 > Content-Type: application/json; charset=UTF-8\n1 > Host: petstore.swagger.io\n1 > Content-Length: 139\n1 > Connection: keep-alive\n1 > User-Agent: Apache-HttpClient/5.6.1 (Java/25)\n{\n  \"id\": 0,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"testPet\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}\n\nresponse time in milliseconds: 121\n1 < 200 POST https://petstore.swagger.io/v2/pet\n1 < Transfer-Encoding: chunked\n1 < Server: Jetty(9.2.9.v20150224)\n1 < Access-Control-Allow-Origin: *\n1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT\n1 < Connection: keep-alive\n1 < Date: Sat, 16 May 2026 01:44:33 GMT\n1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization\n1 < Content-Type: application/json\n{\n  \"id\": 9223372036854775807,\n  \"category\": {\n    \"id\": 0,\n    \"name\": \"string\"\n  },\n  \"name\": \"testPet\",\n  \"photoUrls\": [\n    \"string\"\n  ],\n  \"tags\": [\n    {\n      \"id\": 0,\n      \"name\": \"string\"\n    }\n  ],\n  \"status\": \"available\"\n}\n\nPOST https://petstore.swagger.io/v2/pet\n200 (121 ms)\n",
           "hasEmbeds": false,
           "hasCallResults": false
         },
@@ -235,7 +235,7 @@
           "text": "response.name == 'testPet'",
           "line": 28,
           "status": "passed",
-          "durationMillis": 8,
+          "durationMillis": 12,
           "hasLogs": false,
           "hasEmbeds": false,
           "hasCallResults": false
